@@ -1,0 +1,59 @@
+*{
+    margin:0;
+    padding :0;
+
+}
+
+.welcome{
+    background-color:grey;
+    color:green;
+    font-size:16px;
+    font-family:arial;
+    font-weight:bold 1px solid;
+    line-height:1em;
+    text-decoration:none;
+    
+}
+a.hover{
+    color:green;
+}
+a:active{
+    color:red;
+}
+a:visited{
+    color:violet;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    }
+    .box-1{
+        background-color:lightgrey;
+        color:white;
+        border:5px solid red;
+        border-right:5px solid yellow;
+        border-left:5px dashed violet;
+        border-top:5px double black;
+        border-bottom:5px dotted brown;
+    }
+    //border-style: none|hidden|dotted|dashed|solid|double|groove|ridge|inset|outset|initial|inherit;
+
+ .box-2{   font-weight: 800;
+font-style: italic;
+text-decoration: underline;
+text-transform: uppercase;
+letter-spacing: 0.2em;
+word-spacing: 1em; 
+}
+
+.my-form .form-group{
+    padding-bottom: 15px;
+    .my-form label{
+    display: block;
+    .my-form input[type="text"], .my-form input[type="password"] {
+    padding: 8px;
+    width: 100%;
+    .block
+    float: left;
+    width: 33.3%;
+    border: 1px solid #ccc;
